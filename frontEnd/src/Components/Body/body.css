@@ -1,0 +1,73 @@
+.first-cl{
+    background-color: rgb(255, 255, 255);
+
+    height: 610px;
+}
+.second-cl{
+    background-color: rgb(255, 255, 255);
+
+}
+.heading{
+    margin-top: 197px;
+font-family: 'Titillium Web', sans-serif;
+}
+.sub-heading{
+    height: 71px;
+    width: 400px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.border-button {
+  background-color: transparent;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.border-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+}   
+
+.btn-animation {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .pic{
+    font-size: 16px;
+    width: 101px;
+  }
+  .bigpic{
+    width: 390px;
+    margin-top: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+background: #ffffff;
+  }
+  
+/*slideright animation*/
+.slide-right {
+    animation: slideRight 0.5s ease;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+

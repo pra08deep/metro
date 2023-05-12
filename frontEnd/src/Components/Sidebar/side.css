@@ -1,0 +1,23 @@
+
+.con{
+    width: 62px;
+    float: left;
+    background-color: #f7f7f7;
+    height: 715px;
+    
+    padding: 0px;
+
+}
+
+.point{
+height: 250px;
+background: #ffffff;
+margin-top: 188px;
+width: 65px;
+}
+.circle{
+    font-size: 16px;
+    margin-left: 20px;
+margin-top: 27px;
+color: rgb(0,0,0);
+}

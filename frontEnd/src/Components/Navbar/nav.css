@@ -1,0 +1,26 @@
+
+.column{
+    height: 67.575px;
+    background-color: rgb(236, 0, 0);
+  
+}
+.logo{
+    width: 100px;
+margin-top: 12px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.toggle{
+    background: rgb(0, 0, 0);
+height: 50px;
+width: 62px;
+}
+.icon{
+    font-size: 49px;
+color: var(--bs-gray-500);
+padding: 6px;
+margin-top: 8px;
+}
+
+  

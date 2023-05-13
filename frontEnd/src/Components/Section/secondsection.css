@@ -1,13 +1,14 @@
 .sectionheading{
     height: 170px;
-    background-color: #0fa2bc; 
+    background-color: #ffffff;
+    text-align: center; 
   
 }
 .sectionheading>h{
- font-size: 25px;
+ font-size: 35px;
 }
 .image-body{
     height:620px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     overflow-y: scroll;
 }

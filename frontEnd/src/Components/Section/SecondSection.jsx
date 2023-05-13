@@ -21,12 +21,14 @@ const Gallery = ({ images }) => {
       <Row>
         <Col>
         <div className="sectionheading" >
-    <h>hello im scroll section</h>
+    <h1>Metro Market Offer  </h1>
+    <h>Visit our near Store</h>
+    <p>Location:Sanepa,Pepsicola,Jorpati,Kapan </p>
+    <p>Offer Valid Date</p>
+    <h1></h1>
     </div>
         </Col>
-        <Col>
-        <h>next section</h>
-        </Col>
+       
       </Row>
     </Container>
     <Container className="image-body">

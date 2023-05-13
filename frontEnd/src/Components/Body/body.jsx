@@ -10,7 +10,7 @@ import "./body.css";
 export default  function body(){
     return(
 
-      <Container>
+      <Container >
     
       <Row>
         <Col className="first-cl">
@@ -18,7 +18,7 @@ export default  function body(){
         <p className="sub-heading" >Metro Market contains large amount of grocery and home appliance. High quality and located in many places and growing and connect in all Nepal.</p>
         <Button className="border-button">Read More</Button><br/>
         <Button className="btn-animation">Click me!</Button>
-        <img src={Pic}  className="slide-right" />
+        <img src={Pic}  className="pic" />
         </Col>
         <Col className="second-cl">
           <img src={Bigpic}  className="bigpic"/>

@@ -16,7 +16,7 @@ export default  function nav(){
     return(
       <>
       {[false].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+        <Navbar key={expand} bg="white " expand={expand}  className="mb-3">
           <Container fluid>
           
             <Navbar.Toggle  aria-controls={`offcanvasNavbar-expand-${expand}`} />

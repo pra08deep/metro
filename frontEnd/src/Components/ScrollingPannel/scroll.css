@@ -1,0 +1,41 @@
+.scrollbody{
+  height: 165px;
+  background-color: #f9f9f9; 
+
+}
+
+.centered-text {
+    color: rgb(171, 19, 19);
+    background-color: #ffffff;
+    font-size: 5px;
+    text-align: center;
+    height: 100px;
+  }
+  .icon-scroll {
+    position: absolute;
+    background-color: #f9f9f9;
+    left: 49%;
+   
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #080101;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: scroll 2s ease-out infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(15px);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

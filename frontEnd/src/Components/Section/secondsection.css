@@ -1,0 +1,13 @@
+.sectionheading{
+    height: 170px;
+    background-color: #0fa2bc; 
+  
+}
+.sectionheading>h{
+ font-size: 25px;
+}
+.image-body{
+    height:620px;
+    background-color: beige;
+    overflow-y: scroll;
+}

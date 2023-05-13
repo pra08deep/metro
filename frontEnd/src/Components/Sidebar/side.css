@@ -2,16 +2,18 @@
 .con{
     width: 62px;
     float: left;
-    background-color: #f7f7f7;
+    opacity: 0.5;
     height: 715px;
-    
+    position: fixed;
     padding: 0px;
+    
 
 }
 
 .point{
+    background-color: rgba(255, 255, 255, 0.5);
 height: 250px;
-background: #ffffff;
+
 margin-top: 188px;
 width: 65px;
 }

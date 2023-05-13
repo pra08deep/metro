@@ -10,7 +10,7 @@ import "./side.css";
 export default  function side(){
     return(
 
-         <Container fluid="md" className="con">
+         <Container bg="whight" fluid="md" className="con">
       <Row >
         <Col >
            

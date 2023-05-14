@@ -13,6 +13,8 @@ const Gallery = ({ images }) => {
 
   const handleClose = () => setShow(false);
 
+  
+
   return (
 
     <div>

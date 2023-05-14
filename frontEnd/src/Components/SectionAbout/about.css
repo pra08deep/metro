@@ -1,20 +1,56 @@
+.AboutHeading{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+
 .About{
     margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    
+  
 }
 
 .Abouttext{
-    width: 500px;
-    height: 500px;
+   height: 500px;
+   width: 40%;
+   
     background-color: rgb(255, 255, 255);
+    margin-right: 10px;
 }
+.Abouttext>h{
+    font-size: 40px;
+    text-align:center;
+}
+
+
 .Aboutimg{
-    width: 500px;
-    height: 500px;
-    background-color: rgb(28, 28, 7);
+    margin-left: 50px;
+    margin-left: 0px;
+    border-radius:15px 0px  15px 0px;
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
 
 }
+
+.Carouselimg{
+    background-color: rgb(240, 235, 235);
+    border-radius:25px;
+}
+
+.aboutimgs{
+ 
+    width:810px;
+    height: 500px;
+    display: block;
+   
+}
+
 .Aboutother{
-    height: 290px;
+    height: 190px;
+    width: 810px;
     background-color: aquamarine;
 
 }

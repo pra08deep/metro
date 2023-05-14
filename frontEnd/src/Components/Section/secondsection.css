@@ -8,7 +8,9 @@
  font-size: 35px;
 }
 .image-body{
+
     height:620px;
     background-color: rgb(255, 255, 255);
-    overflow-y: scroll;
+    overflow-x:scroll;
+    
 }

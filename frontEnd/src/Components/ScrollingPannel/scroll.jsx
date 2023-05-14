@@ -3,10 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './scroll.css';
+import SecondP from './scroll'
 
 import "./scroll.css";
 function scrollToSection() {
-  const sectionHeight = document.getElementById('my-section').offsetTop;
+  const section = document.getElementById(SecondP);
+  const offset = section.offsetTop;
   window.scrollTo({
     top: sectionHeight,
     behavior: 'smooth',

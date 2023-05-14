@@ -7,7 +7,8 @@ import Nav from './Components/Navbar/nav'
 import Body from './Components/Body/body'
 import Scroll from './Components/ScrollingPannel/scroll'
 import SecondP from './Components/Section/SecondSection'
-
+import ThirdP from './Components/SectionAbout/about'
+import './App.css'
 
 const images = [
   {
@@ -70,7 +71,7 @@ const images = [
 export default function app(){
 
   return(
-    <div>
+    <div className="app">
    
            
                         <Nav/>
@@ -78,6 +79,7 @@ export default function app(){
                         <Body/>
                         <Scroll/>
                         <SecondP images={images} selectedImg={images[0].url}/>
+                        <ThirdP/>
                         
            
       

@@ -1,0 +1,22 @@
+.feedback{
+  margin-top: 15px;  
+}
+
+
+.Terminals{
+    height:500px;
+    width:50rem;
+    background-color: rgb(255, 255, 255);
+}
+.App{
+    margin-top: 50px;
+}
+.form{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+}
+.footer{
+    height: 290px;
+    background-color: black;
+}

@@ -33,8 +33,8 @@ const Gallery = ({ images }) => {
        
       </Row>
     </Container>
-    <Container className="image-body">
-      <Row>
+    <Container >
+      <Row className="image-body">
    
     
         {images.map((img) => (

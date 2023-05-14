@@ -8,9 +8,9 @@
  font-size: 35px;
 }
 .image-body{
-
-    height:620px;
+    max-height:620px;
     background-color: rgb(255, 255, 255);
-    overflow-x:scroll;
+    overflow-x:auto ;
+    display: flex;
     
 }

@@ -5,7 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Carousel, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import bg from './img/bg.jpeg';
+
+import { RiTeamFill } from 'react-icons/ri';
+import { GrGallery } from 'react-icons/gr';
+import { GoLocation } from 'react-icons/go';
 import  './about.css'
 
 
@@ -17,7 +20,7 @@ const images = [
 
 
 
-
+  
 //image on about
 /*const images = [
     {
@@ -53,6 +56,15 @@ const images = [
       alt: 'Third Image'
     },
 
+
+    
+  const imagesTeam = [
+    { url: 'src/Components/SectionAbout/img/bg.jpeg', alt: 'Image 1', caption: 'Caption 1' },
+    { url: 'src/Components/Section/img/3.jpg', alt: 'Image 2', caption: 'Caption 2' },
+    { url: 'src/Components/SectionAbout/img/bg.jpeg', alt: 'Image 3', caption: 'Caption 3' },
+  ];
+
+
   ];*/
 
 export default function about(){
@@ -61,12 +73,9 @@ export default function about(){
             <Row>
                 <Col className="AboutHeading">
                 <h>About Metro</h>
-
                 </Col>
             </Row>
         <Row className="About" >
-                      
-
           <Col sm>
           <Carousel className="Carouselimg" interval={3000}>
         {images.map((image, index) => (
@@ -92,13 +101,87 @@ export default function about(){
               growing on different place</p>
 
           </Col>
+          
+        </Row>
+        <div>
+        <Row className="Aboutother" >
+          <Col className="AboutTeam" >
+        
+          <div className="Teamicon" >
+          <h1 className="AboutTeamheading">Teams Metro</h1>
+          <hr/>
+         <div style={{float:'left'}}>
+         <RiTeamFill style={{fontSize:'80px' }}/>
+         </div>
+         <div style={{marginLeft:'15px',width:'300px' ,float:'left'}}>
+          <h>Metro  Having more than 100+ member in different location.....
 
+          </h>
+          <br/>
+          <button style={{float:'center'}}>View more</button>
+         </div>
+          </div>
+          <div>
+
+          </div>
+        
+         
+          </Col>
+
+          <Col className="AboutGallary">
+          <div >
+          
+          <div className="Teamicon" >
+          <h1 className="AboutTeamheading">Gallary Metro</h1>
+          <hr/>
+         <div style={{float:'left'}}>
+         <GrGallery style={{fontSize:'80px' }}/>
+         </div >
+         <div >
+          <div style={{marginLeft:'15px',width:'300px' ,float:'left'}}>
+          <h  >Metro Gallary has multiple store pic with memories sharing with customer</h>
+          <br/>
+          <button >View More</button>
+          </div>
+          
+          
+         </div>
+          </div>
+          <div>
+
+          </div>
+        
+          </div>
+          </Col>
+          <Col className="AboutLoaction" >
+          <div  >
+          <div >
+          
+          <div className="Teamicon" >
+          <h1 className="AboutTeamheading">Locations Metro</h1>
+          <hr/>
+         <div style={{float:'left'}}>
+         <GoLocation style={{fontSize:'80px' }}/>
+         </div >
+         <div >
+          <div style={{marginLeft:'15px',width:'300px' ,float:'left'}}>
+          <h  >Metro Gallary has multiple store pic with memories sharing with customer</h>
+          <br/>
+          <button >View More</button>
+          </div>
+          
+          
+         </div>
+          </div>
+          <div>
+
+          </div>
+        
+          </div>
+          </div>
+          </Col>
         </Row>
-        <Row>
-          <Col className="Aboutother">Team</Col>
-          <Col className="Aboutother">Gallery</Col>
-          <Col      className="Aboutother"></Col>
-        </Row>
+        </div>
       </Container>
 
     )
@@ -142,4 +225,34 @@ export default function about(){
           </Carousel.Item>
         ))}
       </Carousel>
+
+
+
+
+       <RiTeamFill style={{fontSize:'105px',backgroundColor:'red',display: 'block',marginLeft: 'auto',marginRight: 'auto'}}/>
+          <br/>
+        <h1>Team Metro</h1>
+              <div className="Teamimg">
+          <Carousel className="CarouselimgTeam" interval={2000}>
+        {imagesTeam.map((imagesTeam, index) => (
+          <Carousel.Item key={index}>
+            <Image
+              className="aboutimgsTeam img-fluid"
+              src={imagesTeam.url}
+              alt={imagesTeam.alt}
+            
+            />
+            <Carousel.Caption>
+              <h3>{imagesTeam.caption}</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+      </div>
+      <div className="Teamtext">
+          <h>
+            Metro Teams
+          </h>
+      </div>
 */
+

@@ -73,6 +73,7 @@ export default function about(){
             <Row>
                 <Col className="AboutHeading">
                 <h>About Metro</h>
+                <hr/>
                 </Col>
             </Row>
         <Row className="About" >
@@ -98,8 +99,22 @@ export default function about(){
             <hr/>
             <p>Metro market is Convinent store having more than 5000+ items
             located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
+              growing on different place
+              Metro market is Convinent store having more than 5000+ items
+            located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
+              growing on different place
+              Metro market is Convinent store having more than 5000+ items
+            located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
               growing on different place</p>
-
+              <p>Metro market is Convinent store having more than 5000+ items
+            located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
+              growing on different place
+              Metro market is Convinent store having more than 5000+ items
+            located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
+              growing on different place
+              Metro market is Convinent store having more than 5000+ items
+            located on many place like Sanepa,Pepsicola,Jorpati and kapan which remains 
+              growing on different place</p>
           </Col>
           
         </Row>

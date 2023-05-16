@@ -7,11 +7,13 @@ import { FaStar } from 'react-icons/fa';
 import { Carousel } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import { BsFacebook, BsInstagram, BsLinkedin, BsTiktok, BsTwitter } from 'react-icons/bs';
+import { ImOffice} from 'react-icons/im';
 
 
 
 import './footer.css'
+import { GrPhone } from 'react-icons/gr';
 
 
 function TeamCard({ image,name,location, description }) {
@@ -52,7 +54,7 @@ export default function footer() {
      
       name: 'Team 1',
       description: 'Description of team 1',
-      image: 'src/Components/SectionAbout/img/bg.jpeg',
+      image: 'src/Components/SectionFooter/img/images.jpg',
       location:'godaeari'
 
     },
@@ -69,6 +71,7 @@ export default function footer() {
   return (
   
  <Container>
+       
         <Row className='feedback'>
 
         <Col className="Terminals" sm >
@@ -105,8 +108,31 @@ export default function footer() {
         </Col>
         </Row>
         <Row>
-          <Col className="footer">
-     
+          <Col>
+          <div className="Socialtext">
+            <h>Connect with ous with Social Media:-</h>
+          </div>
+          <div className="socialmedia">
+         <BsFacebook style={{marginRight:'25px'}}/>
+         <BsInstagram style={{marginRight:'25px'}}/>
+         <BsTiktok style={{marginRight:'25px'}}/>
+         <BsTwitter style={{marginRight:'25px'}}/>
+         <BsLinkedin style={{marginRight:'5px'}}/>
+
+          </div></Col>
+        </Row>
+        <Row className="footer">
+       
+          <Col >
+            <div className="companydetails">
+            <h style={{fontSize:"35px"}}>  <ImOffice style={{fontSize:"25px"}}/> Metro Market Private Limited</h><br/>
+            <h style={{fontSize:"20px"}}> Dallu Chautari-15,Kathmandu</h><br/>
+            <h style={{fontSize:"20px"}}>Email:- HO.@metromarket.com.np</h><br/>
+            <h style={{fontSize:"20px"}}>  Contact Number: 01-5502545,0155648655 </h><br/>
+            <h style={{fontSize:"20px"}}>  Fax Number: 01-5502545,0155648655 </h>
+            </div>
+          </Col>
+          <Col className="companylocation">
           </Col>
           </Row>
       </Container>

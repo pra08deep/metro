@@ -6,7 +6,7 @@ const port = 8089;
 
 
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'localhost:3305',
   user: 'root',
   password: '',
   database:'metromarket'
@@ -27,8 +27,18 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/images', (req, res) => {
+  const query = 'SELECT * FROM header';
 
-
+  db.query(query, (err, results) => {
+    if (err) {
+      console.error('Database query error:', err);
+      res.sendStatus(500);
+    } else {
+      res.json(results);
+    }
+  });
+});
 
 
 app.listen(port, () => {

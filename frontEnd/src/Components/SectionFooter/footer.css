@@ -1,27 +1,38 @@
 .feedback{
-  margin-top: 15px;  
+  margin-top: 0px;  
 }
 
 
+.feedbackHeading{
+    margin-top: 20px;   
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+
+    
+}
+
 .Terminals{
-    height:500px;
+    height:550px;
     width:50rem;
     background-color: rgb(255, 255, 255);
 }
 .App{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .form{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
     background-color: rgb(249, 249, 249);
 }
 .footer{
-    height: 290px;
+    height: 250px;
     background-color: rgb(247, 247, 247);
 }
 
 .Socialtext{
+    height: 200px;
     float: left;
     width: 50%;
     text-align: center;
@@ -36,9 +47,10 @@
 
 }
 .companydetails{
+    
    background-color: rgb(247, 247, 247); 
    padding:10px;
-   margin-top: 30px;
+   margin-top:0px;
 
 }
 .companylocation{

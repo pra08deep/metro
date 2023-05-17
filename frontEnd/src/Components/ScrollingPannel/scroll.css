@@ -1,6 +1,6 @@
 .scrollbody{
   height: 165px;
-  background-color: #f9f9f9; 
+  background-color: #ffffff; 
 
 }
 
@@ -13,7 +13,7 @@
   }
   .icon-scroll {
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     left: 49%;
    
     display: block;

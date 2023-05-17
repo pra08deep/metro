@@ -71,17 +71,25 @@ export default function footer() {
   return (
   
  <Container>
-       
-        <Row className='feedback'>
-
-        <Col className="Terminals" sm >
+          
          
+        <Row className='feedback'>
+      
+        <Col className="Terminals" sm >
+        <div className="feedbackHeading">
+                <h>People Feedback</h>
+                <hr/>
+                </div>
         <div className="App">
       <TeamCarousel teams={teams} />
     </div>
     
         </Col>
         <Col >
+        <div className="feedbackHeading">
+                <h>Send Feedback</h>
+                <hr/>
+                </div>
         <div className='form'>
         <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -108,29 +116,26 @@ export default function footer() {
         </Col>
         </Row>
         <Row>
-          <Col>
-          <div className="Socialtext">
-            <h>Connect with ous with Social Media:-</h>
-          </div>
-          <div className="socialmedia">
-         <BsFacebook style={{marginRight:'25px'}}/>
-         <BsInstagram style={{marginRight:'25px'}}/>
-         <BsTiktok style={{marginRight:'25px'}}/>
-         <BsTwitter style={{marginRight:'25px'}}/>
-         <BsLinkedin style={{marginRight:'5px'}}/>
-
-          </div></Col>
+          <Col >
+     
+        </Col>
         </Row>
         <Row className="footer">
        
-          <Col >
+          <Col sm >
             <div className="companydetails">
             <h style={{fontSize:"35px"}}>  <ImOffice style={{fontSize:"25px"}}/> Metro Market Private Limited</h><br/>
             <h style={{fontSize:"20px"}}> Dallu Chautari-15,Kathmandu</h><br/>
             <h style={{fontSize:"20px"}}>Email:- HO.@metromarket.com.np</h><br/>
             <h style={{fontSize:"20px"}}>  Contact Number: 01-5502545,0155648655 </h><br/>
-            <h style={{fontSize:"20px"}}>  Fax Number: 01-5502545,0155648655 </h>
+            <h style={{fontSize:"20px"}}>  Fax Number: 01-5502545,0155648655 </h><br/>
+            <h style={{fontSize:"20px"}}> Social Media:-    <BsFacebook style={{marginRight:'25px'}}/>
+         <BsInstagram style={{marginRight:'25px'}}/>
+         <BsTiktok style={{marginRight:'25px'}}/>
+         <BsTwitter style={{marginRight:'25px'}}/>
+         <BsLinkedin style={{marginRight:'5px'}}/>  </h>
             </div>
+           
           </Col>
           <Col className="companylocation">
           </Col>

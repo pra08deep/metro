@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,6 +9,7 @@ import Bigpic from './img/11697.jpg'
 import "./body.css";
 export default  function body(){
     return(
+    
 
       <Container >
     
@@ -25,6 +26,7 @@ export default  function body(){
           </Col>
       </Row>
     </Container>
+ 
 
     )
 }
